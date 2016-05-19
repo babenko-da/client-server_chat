@@ -1,9 +1,11 @@
-
 /**
- * Created by dmitrybabenko on 4/22/16.
+ * Created by dmitrybabenko on 5/1/16.
  */
 public class MainClass {
     public static void main(String[] args) {
-        Server ser = new Server();
+        //SQLTransport.connect();
+        //SQLTransport.fillTable();
+        //SQLTransport.closeConnection();
+        Server s = new Server();
     }
 }
